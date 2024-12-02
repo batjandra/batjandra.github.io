@@ -4,8 +4,8 @@ collection: publications
 category: workshops
 permalink: /publication/tgnv2
 excerpt: 'We show that adding source-target identification to Temporal Graph Networks (TGNs) strictly increases its expressivity and demonstrate that the resulting architecture outperforms all TG methods in dynamic node affinity prediction on all TGB datasets.'
-date: 2024-10-01
-venue: 'NeurIPS Symmetry and Geometry in Neural Representations Workshop 2024'
+date: 2024-11-01
+venue: 'NeurIPS Symmetry and Geometry in Neural Representations Workshop 2024 (Oral)'
 paperurl: 'https://arxiv.org/abs/2411.03596'
 ---
 
