@@ -2,6 +2,7 @@
 permalink: /
 title: "About"
 author_profile: true
+profile_header: true
 redirect_from:
   - /about/
   - /about.html
@@ -9,7 +10,9 @@ redirect_from:
 
 <div class="profile-home">
   <div class="profile-intro" markdown="1">
-I'm a **Senior Research Engineer at Google DeepMind** in London, working on **Gemini pre-training and continual learning**.
+I'm a Senior Research Engineer at Google DeepMind in London, working on **Gemini pre-training and continual learning**.
+
+## About
 
 My research spans language models, temporal graph learning, and the theoretical foundations of neural architectures. Recent work includes SkillSmith, which combines learned skills with textual knowledge, and research on the trade-off between information propagation speed and fidelity in computational graphs.
   </div>
@@ -24,7 +27,7 @@ My research spans language models, temporal graph learning, and the theoretical 
     <h2 id="selected-publications">Selected publications</h2>
     {% assign selected_publications = site.publications | where_exp: "paper", "paper.selected_order != nil" | sort: "selected_order" %}
     {% for paper in selected_publications %}
-      {% include publication-card.html paper=paper %}
+      {% include publication-card.html paper=paper compact=true %}
     {% endfor %}
     <p class="all-publications"><a href="{{ '/publications/' | relative_url }}">View all publications <span aria-hidden="true">→</span></a></p>
   </section>
@@ -32,6 +35,6 @@ My research spans language models, temporal graph learning, and the theoretical 
   <section class="profile-background" aria-labelledby="background" markdown="1">
 ## Background
 
-I completed my MSc in Advanced Computer Science at the University of Oxford, where I worked with [Yarin Gal](https://www.cs.ox.ac.uk/people/yarin.gal/website/) in [OATML](https://oatml.cs.ox.ac.uk/) on language-model uncertainty and with [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) on temporal graph learning. Before that, I studied at the University of Cambridge, graduating **first in my cohort**. I've also held research appointments at Oxford, Cambridge, Mila, and EMBL-EBI, and previously worked in engineering at [XTX Markets](https://www.xtxmarkets.com/) and [Amazon Web Services](https://aws.amazon.com/).
+I completed my MSc in Advanced Computer Science at the University of Oxford, where I worked with [Yarin Gal](https://www.cs.ox.ac.uk/people/yarin.gal/website/) in [OATML](https://oatml.cs.ox.ac.uk/) on language-model uncertainty and with [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/) on temporal graph learning. Before that, I studied at the University of Cambridge, where I graduated as **valedictorian of my cohort**. I've also held research appointments at Oxford, Cambridge, Mila, and EMBL-EBI, and previously worked in engineering at [XTX Markets](https://www.xtxmarkets.com/) and [Amazon Web Services](https://aws.amazon.com/).
   </section>
 </div>

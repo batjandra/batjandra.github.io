@@ -1,6 +1,10 @@
-<article class="publication-card">
+<article class="publication-card{% if include.compact %} publication-card--compact{% endif %}">
   <h3><a href="{{ include.paper.url | relative_url }}">{{ include.paper.title | escape }}</a></h3>
-  {% include publication-meta.html paper=include.paper %}
+  {% if include.compact %}
+    <p class="publication-venue">{{ include.paper.venue | escape }}</p>
+  {% else %}
+    {% include publication-meta.html paper=include.paper %}
+  {% endif %}
   <div class="publication-summary">{{ include.paper.excerpt | markdownify }}</div>
   {% include publication-links.html paper=include.paper %}
 </article>
