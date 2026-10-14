@@ -6,8 +6,7 @@
 
 main:
   - title: "CV"
-    url: /files/CV_Aaron_Tjandra_Research.pdf
-    #url: /cv/
+    url: /cv/
 
   - title: "Publications"
     url: /publications/

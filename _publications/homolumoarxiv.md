@@ -1,8 +1,9 @@
 ---
 title: "On Graph Neural Network Ensembles for Large-Scale Molecular Property Prediction"
 collection: publications
+authors: "Edward Elson Kosasih, Joaquin Cabezas, Xavier Sumba, Piotr Bielak, Kamil Tagowski, Kelvin Idanwekhai, Benedict Aaron Tjandra, and Arian Rokkum Jamasb"
 category: preprints
-permalink: /publication/tgnv2
+permalink: /publication/gnn-ensembles-molecular-property-prediction
 excerpt: 'We conducted experiments using graph neural network ensembles to predict molecular HOMO-LUMO gaps.'
 date: 2021-01-01
 venue: 'arXiv'

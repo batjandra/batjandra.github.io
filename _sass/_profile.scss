@@ -1,0 +1,41 @@
+/* Personal profile and shared publication listings. */
+.profile-home {
+  max-width: 820px;
+  line-height: 1.75;
+
+  .profile-intro > p:first-child { font-size: 1.18em; line-height: 1.6; color: #26363c; }
+  h2 { margin-top: 2.4rem; padding-bottom: .65rem; border-bottom: 1px solid #e4e9eb; }
+  .profile-background { margin-top: 2.5rem; }
+  .all-publications { margin-top: 1.5rem; font-weight: 600; }
+}
+.profile-links, .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem 1.3rem;
+  a { color: #206779; text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid #206779; outline-offset: 4px; }
+}
+.profile-links { margin: 1.6rem 0 2.3rem; }
+.publication-card {
+  padding: 1.35rem 0;
+  border-bottom: 1px solid #e4e9eb;
+  h3 { margin: 0 0 .5rem; font-size: 1.05em; line-height: 1.45; }
+  h3 a { color: #26363c; text-decoration: none; }
+  h3 a:hover { color: #206779; text-decoration: underline; }
+  .publication-summary p { margin: .7rem 0; font-size: .9em; line-height: 1.65; }
+  .publication-links { font-size: .85em; }
+}
+.publication-authors { margin: .35rem 0 !important; font-size: .8em; line-height: 1.6; color: #566269; }
+.publication-venue { margin: .5rem 0 !important; font-size: .82em; line-height: 1.5; font-weight: 600; color: #206779; }
+.publication-note { margin: .25rem 0 !important; font-size: .75em; line-height: 1.5; color: #566269; }
+.cv-preview {
+  max-width: 900px;
+  figure { display: block; margin: 0 0 2rem; }
+  img { display: block; width: 100%; height: auto; border: 1px solid #e4e9eb; }
+  figcaption { margin-top: .5rem; text-align: center; font-size: .75em; color: #566269; }
+}
+@media (max-width: 600px) {
+  .profile-home .profile-intro > p:first-child { font-size: 1.08em; }
+  .publication-card { padding: 1.1rem 0; }
+}

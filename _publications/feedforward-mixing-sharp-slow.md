@@ -1,11 +1,13 @@
 ---
 title: "Feedforward Mixing is as Sharp as it is Slow in Reverse"
 collection: publications
+authors: "Benedict Aaron Tjandra, Avi Wigderson, João G. M. Araújo, Alex Vitvitskyi, Federico Barbero, and Petar Veličković"
 category: workshops
 permalink: /publication/feedforward-mixing-sharp-slow
-excerpt: 'We analyze the feedforward mixing process in neural networks and establish backward mixing time as a key metric for evaluating information propagation.'
+excerpt: 'We establish backward mixing time as a bound on information fidelity, revealing a speed–fidelity trade-off in symmetric feedforward computational graphs.'
 date: 2026-06-06
-venue: 'ICML 2026 Workshop on Combining Theory and Benchmarks: Towards A Virtuous Cycle to Understand and Guarantee Foundation Model Performance (T&B)'
+venue: 'ICML 2026 FoGen and GFM Workshops'
+selected_order: 2
 paperurl: 'https://openreview.net/pdf?id=7vuXbycHfO'
 ---
 

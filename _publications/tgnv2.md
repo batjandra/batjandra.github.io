@@ -1,6 +1,7 @@
 ---
-title: "Enhancing the Expressivity of Temporal Graph Networks via Source-Target Identification"
+title: "Enhancing the Expressivity of Temporal Graph Networks through Source-Target Identification"
 collection: publications
+authors: "Benedict Aaron Tjandra, Federico Barbero, and Michael Bronstein"
 category: workshops
 permalink: /publication/tgnv2
 excerpt: 'We show that adding source-target identification to Temporal Graph Networks (TGNs) strictly increases its expressivity and demonstrate that the resulting architecture outperforms all TG methods in dynamic node affinity prediction on all TGB datasets.'

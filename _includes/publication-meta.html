@@ -1,0 +1,7 @@
+{% assign paper = include.paper %}
+{% if paper.authors %}
+<p class="publication-authors">{{ paper.authors | escape | replace: 'Benedict Aaron Tjandra', '<strong>Benedict Aaron Tjandra</strong>' }}</p>
+{% endif %}
+{% if paper.author_note %}<p class="publication-note">{{ paper.author_note | escape }}</p>{% endif %}
+<p class="publication-venue">{{ paper.venue | escape }}{% if paper.category == 'preprints' %} · {{ paper.date | date: "%Y" }}{% endif %}</p>
+{% if paper.venue_note %}<p class="publication-note">{{ paper.venue_note | escape }}</p>{% endif %}

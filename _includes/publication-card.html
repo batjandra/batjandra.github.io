@@ -1,0 +1,6 @@
+<article class="publication-card">
+  <h3><a href="{{ include.paper.url | relative_url }}">{{ include.paper.title | escape }}</a></h3>
+  {% include publication-meta.html paper=include.paper %}
+  <div class="publication-summary">{{ include.paper.excerpt | markdownify }}</div>
+  {% include publication-links.html paper=include.paper %}
+</article>

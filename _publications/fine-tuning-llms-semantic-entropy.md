@@ -1,6 +1,7 @@
 ---
 title: "Fine-Tuning Large Language Models to Appropriately Abstain via Semantic Entropy"
 collection: publications
+authors: "Benedict Aaron Tjandra, Muhammed Razzak, Jannik Kossen, and Yarin Gal"
 category: workshops
 permalink: /publication/fine-tuning-llms-semantic-entropy
 excerpt: 'We fine-tune LLMs using semantic entropy to make them abstain from answering uncertain questions.'
